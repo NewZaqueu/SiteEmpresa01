@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+			body{
+					background-color:#A9A9A9;
+					padding:0px;
+					position: relative;
+
+					}
+			div#interface {
+					position:relative;
+					width:900px;
+					background-color:white;
+					margin:-20px auto 0px auto;
+					padding:0px;
+				}
+			header#menu{
+					position: realtive;
+					top:10px;
+					margin:0px;
+					padding:5px;
+					height:130px;
+					background-color:#4682B4;
+					background:url("img4.png") no-repeat 20px 20px;
+					border-bottom: 2px black solid;
+				}
+			section{
+					position:relative;
+					margin:0px 10px 0px 10px;
+				}
+				
+			a {color:#1C1C1C;text-decoration: none;}
+			a:hover {color:#0000EE;}
+			a:visited {text-decoration: none;}
+
+			ul {
+					position:relative;
+					width:600px;     /*tamanho do bloco do menu*/
+					top:85px; left:-40px;
+					list-style:none; /*retira marcadores da lista*/
+					text-transform: uppercase; /*matem letras em maiusculas*/
+
+								
+					}
+			li {
+					font-size: 13pt;
+					font-family: Verdana , sans-serif;
+					text-transform: uppercase;
+					text-shadow: 0px 2px 2px;
+					display: inline-block;
+					padding: 0px 10px 0px 10px;
+					border-radius: 8px;
+				}
+			li:hover, a:hover {
+					background-color: #838B83;
+					color: #FFF0F5;
+								}
+
+			a:link, a:visited, a:active {
+				text-decoration: none
+				}
+
+				
+			p{
+					text-indent: 50px;
+					text-align: justify;
+				}
+			p#perguntas{
+					text-indent: 0px;
+					text-align:center;
+					padding-top: 50px;
+					padding-bottom: 50px;
+
+				}
+
+			table {
+					margin-bottom: 50px;
+					border-spacing: 0px;
+					width:50%;
+					vertical-align: middle;
+				}
+			table th{
+					background-color:#C1CDC1; 
+								}
+			table td{
+					text-indent: 5px;
+				}							
+				
+			fieldset{border:none;}
+			fieldset.login{width:400px;}
+			fieldset.login div{
+					position:relative;
+					display: inline-block;
+					top:-45px;
+					left:580px;
+					float:left;
+					margin-left:-30px;
+				
+				}	
+			h5{margin:0px 0px 0px 0px;font-weight: normal;}
+			h3{margin:0px;text-align: right;padding:0px;}
+			div #formcontato{padding:10px 5px 10px 5px;box-shadow:0px 0px 10px rgba(0, 0, 0, 0.2);margin:auto;width:550px; }
+			header#contato{width:500px;margin:10px 20px 10px auto;} 
+			header#contato h1{
+				margin-top: 50px;
+				margin-bottom:0px;
+				text-transform: uppercase;
+				font-size: 16pt;
+			}
+			header#contato h2{
+				font-size:13pt;
+				padding-bottom: 20px;
+			}
+			form#contato h3{
+				font-size:13pt;
+				padding:0px;
+				text-align:right;
+			}
+		
+			textarea{float: right;}
+			article{ margin-bottom: 30px;
+			}
+		
